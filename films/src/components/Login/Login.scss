@@ -1,0 +1,39 @@
+.register{
+    background: url(./Login.png) no-repeat;
+    padding-top:385px;
+    padding-right: 800px;
+    background-size: 1560px 710px;
+    height: 710px;
+ }
+ .logo{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+ }
+ 
+ .input_logo{
+     background: #FFFFFF;
+     border-radius: 61px;
+     padding: 18px 29px;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 120%;
+     color: rgba(0, 0, 0, 0.4);
+     border: none;
+     margin-bottom:23px;
+     width: 500px;
+    
+ }
+ 
+ .btn{
+     background: #FED530;
+     border-radius: 40px;
+     border:1px solid #FED530 ;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 32px;
+     font-feature-settings: 'pnum' on, 'lnum' on;
+     color: #FFFFFF;
+     padding: 12px 35px;
+ }
