@@ -17,7 +17,8 @@ const MyLastWatch = () => {
 
     useEffect(() => {
         axios({
-            url: (`https://www.omdbapi.com/?s=betmen&page=1&apikey=8b0efe8d`),
+            url: (`https://www.omdbapi.com/?s=hulk&page=1&apikey=8b0efe8d`),
+            
             method:'GET',
            
             
