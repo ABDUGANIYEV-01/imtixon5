@@ -1,0 +1,30 @@
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.movis {
+    position: relative;
+    width:33%;
+    height: 400px;
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;z-index: -2;
+    }
+}
+
+
+.movis:nth-child(1){
+    width: 700px;
+    height: 400px;
+}
