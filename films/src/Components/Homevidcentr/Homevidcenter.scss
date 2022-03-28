@@ -1,0 +1,89 @@
+.Homevidcenter{
+    position: relative;
+    width: 100%;
+    margin-bottom: 160px;
+    padding-top: 60px;
+    padding-bottom: 68px;
+    &__bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        object-fit: cover;
+      
+    }
+
+    &__film{
+        width: 100%;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        
+    }
+
+    &__info{
+        width: 441px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 96px;
+        margin-bottom: 24px;
+    }
+
+    &__desc{
+        font-size: 16px;
+        line-height: 32px;
+        color: #E6E6E6;
+        margin-bottom: 32px;
+    }
+    &__detalist{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        margin-bottom: 13px;
+    }
+
+    &__trailer{
+        margin-bottom: 68px;
+        & > h4{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 32px;
+        }
+    }
+
+    &__cards{
+        display: flex;
+        column-gap: 16px;
+    }
+}
+
+.card{
+    width: 296px;
+    height: 196px;
+    position: relative;
+    & > img{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    & > span{
+        position: absolute;
+        bottom: 0;
+        right: 14px;
+        font-weight: 700;
+        font-size: 32px;
+        transform: translateY(50%);
+    }
+}

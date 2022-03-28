@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,500&family=Kumbh+Sans:wght@700&family=Open+Sans:wght@600&family=Poppins:wght@700&display=swap');
+
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #FFFFFF;
+  background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 100%);
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  max-width: 1293px!important;
+  margin: 0 auto!important;
+  padding: 0 30px!important;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

@@ -1,0 +1,66 @@
+.videoItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 400px!important;
+    height: 560px!important;
+    padding: 24px;
+    position: relative;
+    text-decoration: none;
+
+    & > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    &__genres{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 27px;
+        background: #FED530;
+        border-radius: 16px;
+        padding: 1.5px 13px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2E2E2E;
+    }
+
+    &__wraper{
+        display: flex;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        &__icon{
+            display: flex;
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+            & > img{
+                display: block;
+                margin-right: 10px;
+            }
+            & > p{
+                font-size: 14px;
+                line-height: 24px;
+                color: #CCCCCC;
+            }
+        }
+        &__title{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: white;
+        }
+    }
+}

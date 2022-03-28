@@ -1,0 +1,75 @@
+
+    .label{
+        display: flex;
+        width: 282px;
+        background: #525252;
+        border-radius: 8px;
+        & > input{
+            font-family: 'DM Sans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: white;
+            flex-grow: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            padding-left: 25px;
+            &::placeholder{
+                color: #9A9AB0;
+            }
+        }
+        & > button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: #FED530;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+    }
+
+    .text{
+        margin-top: 23px;
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .wrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 25px;
+    }
+
+    .pagination{
+        display: flex!important;
+        margin-top: 94px;
+        margin-bottom: 47px;
+        margin-left: auto;
+        margin-right: auto;
+
+        & > ul > li > button{
+            min-width: 54px;
+            height: 59px;
+            border-radius: 12px;
+            color: white!important;
+            background-color: #616161;
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 64px;
+        }
+        & > ul > li > div{
+            color: white!important;
+        }
+    }
+
+    .Mui-selected{
+        background-color: #999696!important;
+    }

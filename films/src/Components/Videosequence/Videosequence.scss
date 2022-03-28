@@ -1,0 +1,40 @@
+.videosequence{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 160px;
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+        & > h3{
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 64px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #FFFFFF;
+        }
+        & > a{
+            font-family: 'DM Sans';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #FED530;
+            text-decoration: none;
+        }
+    }
+
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        & > a {
+            &:first-child{
+                max-width: 817px!important;
+                width: 100%!important;
+            }
+        }
+    }
+}
